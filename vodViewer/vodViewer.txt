@@ -1,0 +1,9 @@
+this is a web app that helps store your replays organized.
+
+app gets its data from an google doc file. that has the videos link;
+for Valorant, that file should have the replays date, agent and map being played. -----//its not ready for multiple games atm
+
+there is a searchbar, date selector, agent and map selectors. -----//agent and map selectors let you multiselect
+
+after putting your parameters it should show a list either in an excel like format(as drawn at _1),
+or as a youtube like video format(as drawn at _2). -----//it's now number one
