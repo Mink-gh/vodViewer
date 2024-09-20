@@ -1,3 +1,3 @@
-pip install streamlit
-pip install pandas
-pip install st-gsheets-connection
+py pip install streamlit
+py pip install pandas
+py pip install st-gsheets-connection
