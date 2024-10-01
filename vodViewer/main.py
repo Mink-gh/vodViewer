@@ -33,7 +33,7 @@ mapChoice = col2.multiselect("Maps", maps, placeholder="All")
 if mapChoice:
     filtered_data = filtered_data[filtered_data['Maps'].isin(mapChoice)]
 
-monthChoice = col3.multiselect("Month", list(month_mapping.values()), placeholder="")
+monthChoice = col3.multiselect("Month", list(month_mapping.values()), placeholder="All")
 if monthChoice:
     selected_months = [reverse_month_mapping[m] for m in monthChoice]
     filtered_data = filtered_data[filtered_data['Month'].isin(selected_months)]
